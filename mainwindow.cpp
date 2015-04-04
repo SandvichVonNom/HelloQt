@@ -15,9 +15,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_menuAboutHello_triggered()
-{
-    std::cout << "1233131";
-    ui->aboutHello->show();
-    return;
-}
+//void MainWindow::on_menuAboutHello_triggered()
+//{
+//    std::cout << "1233131";
+//    ui->aboutHello->show();
+//    return;
+//}

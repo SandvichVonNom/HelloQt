@@ -15,8 +15,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-public slots:
-    void on_menuAboutHello_triggered();
+//public slots:
+//    void on_menuAboutHello_triggered();
 
 private:
     Ui::MainWindow *ui;
