@@ -15,6 +15,9 @@ public:
     explicit aboutHello(QWidget *parent = 0);
     ~aboutHello();
 
+private slots:
+    void on_aboutHelloBtn_clicked();
+
 private:
     Ui::aboutHello *ui;
 };
